@@ -11,15 +11,14 @@
 
 
 import os
-import easy
-
+import act
 
 do = {
-    "help": easy.print_help,
-    "4": easy.make_dir,
-    "1": easy.change_dir,
-    "3": easy.del_dir,
-    "2": easy.list_dir
+    "help": act.print_help,
+    "4": act.make_dir,
+    "1": act.change_dir,
+    "3": act.del_dir,
+    "2": act.list_dir
 }
 
 cwd = os.getcwd()
