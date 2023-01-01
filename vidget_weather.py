@@ -1,11 +1,6 @@
 import json
 import urllib.request
-""""
-from googletrans import Translator
-trans = Translator()
-result = trans.translate(["Mitä sinä teet"], dest='fr', src='fi')
-print(result.text)
-"""
+
 
 url = 'http://ip-api.com/json/'
 geoloc = urllib.request.urlopen(url).read().decode()
