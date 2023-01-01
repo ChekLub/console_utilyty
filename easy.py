@@ -1,15 +1,3 @@
-'''
-print('sys.argv = ', sys.argv)
-# Список путей для поиска модулей
-print('sys.path = ', sys.path)
-# Полный путь к интерпретатору
-print('sys.executable = ', sys.executable)
-# словарь имен загруженных модулей
-print('sys.modules = ', sys.modules)
-# Информация об операционной системе
-print('sys.platform = ', sys.platform)
-'''
-
 import sys
 import os
 
